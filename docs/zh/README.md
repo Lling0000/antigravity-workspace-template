@@ -2,6 +2,8 @@
 
 欢迎来到 **Antigravity Workspace Template** 的中文文档——一个在 Google Antigravity 上构建自主 AI 代理的生产级起步模板。
 
+> **Fork 说明**：你正在阅读 [study8677/antigravity-workspace-template](https://github.com/study8677/antigravity-workspace-template) 的 Lling0000 fork edition。归因与 fork 边界见 [FORK.md](../../FORK.md)。
+
 ## 🎯 快速导航
 
 ### 入门
@@ -119,16 +121,16 @@ A: 在 `.context/` 创建文件会被自动加载，详见 [零配置特性](ZER
 
 ## 🤝 贡献
 
-- 报告问题或想法：[GitHub Issues](https://github.com/study8677/antigravity-workspace-template/issues)  
+- 报告问题或想法：[GitHub Issues](https://github.com/Lling0000/antigravity-workspace-template/issues)
 - 提交代码或改进文档：优先关注 [开发路线图](ROADMAP.md) Phase 9 的议题  
 - 欢迎通过 PR 修复错别字、补充示例
 
 ## 📞 支持
 
 - 📖 文档：当前页面或主仓库 `README.md`  
-- 🐛 Bug：GitHub Issues  
-- 💡 Feature：GitHub Discussions  
-- 👥 社区：给仓库加星以获取更新
+- 🐛 Bug：[GitHub Issues](https://github.com/Lling0000/antigravity-workspace-template/issues)
+- 💡 Feature：[GitHub Discussions](https://github.com/Lling0000/antigravity-workspace-template/discussions)
+- 👥 社区：给 [Lling0000 fork](https://github.com/Lling0000/antigravity-workspace-template) 加星以获取更新
 
 ## 👥 贡献者
 

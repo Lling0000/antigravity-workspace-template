@@ -2,6 +2,8 @@
 
 Welcome to the comprehensive documentation for the **Antigravity Workspace Template** — a production-grade starter kit for building autonomous AI agents on Google Antigravity.
 
+> **Fork note**: You are reading the Lling0000 fork edition of [study8677/antigravity-workspace-template](https://github.com/study8677/antigravity-workspace-template). See [FORK.md](../../FORK.md) for attribution and fork-boundary notes.
+
 ## 🎯 Quick Navigation
 
 ### Getting Started
@@ -130,11 +132,11 @@ A: Create files in `.context/` directory. They're automatically loaded! See [Zer
 We welcome contributions at all levels:
 
 ### Report Issues
-Found a bug? [Open an issue](https://github.com/study8677/antigravity-workspace-template/issues)
+Found a bug? [Open an issue](https://github.com/Lling0000/antigravity-workspace-template/issues)
 
 ### Suggest Ideas
 Have an architectural idea? Ideas are contributions too!  
-[Propose your thought](https://github.com/study8677/antigravity-workspace-template/issues/new)
+[Propose your thought](https://github.com/Lling0000/antigravity-workspace-template/issues/new)
 
 ### Submit Code
 Ready to code? Check the [Roadmap](ROADMAP.md) Phase 9 for open areas.
@@ -145,9 +147,9 @@ See a typo or unclear section? Submit a PR to improve the docs!
 ## 📞 Support
 
 - 📖 **Documentation**: You're reading it! (or check [README.md](../../README.md))
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/study8677/antigravity-workspace-template/issues)
-- 💡 **Feature Requests**: [GitHub Discussions](https://github.com/study8677/antigravity-workspace-template/discussions)
-- 👥 **Community**: [Star the repo](https://github.com/study8677/antigravity-workspace-template) to stay updated
+- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/Lling0000/antigravity-workspace-template/issues)
+- 💡 **Feature Requests**: [GitHub Discussions](https://github.com/Lling0000/antigravity-workspace-template/discussions)
+- 👥 **Community**: [Star the fork](https://github.com/Lling0000/antigravity-workspace-template) to stay updated
 
 ## 👥 Contributors
 

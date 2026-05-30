@@ -2,6 +2,8 @@
 
 Bienvenido a la documentación integral de la **Plantilla Antigravity Workspace** — un starter kit de nivel producción para construir agentes autónomos de IA en Google Antigravity.
 
+> **Fork note**: You are reading the Lling0000 fork edition of [study8677/antigravity-workspace-template](https://github.com/study8677/antigravity-workspace-template). See [FORK.md](../../FORK.md) for attribution and fork-boundary notes.
+
 ## 🎯 Navegación Rápida
 
 ### Comenzando
@@ -130,11 +132,11 @@ R: ¡Crea archivos en directorio `.context/`. Se cargan automáticamente! Ver [C
 Bienvenemos contribuciones en todos los niveles:
 
 ### Reportar Issues
-¿Encontraste un bug? [Abre un issue](https://github.com/study8677/antigravity-workspace-template/issues)
+¿Encontraste un bug? [Abre un issue](https://github.com/Lling0000/antigravity-workspace-template/issues)
 
 ### Sugerir Ideas
 ¿Tienes una idea arquitectónica? ¡Las ideas también son contribuciones!  
-[Propón tu pensamiento](https://github.com/study8677/antigravity-workspace-template/issues/new)
+[Propón tu pensamiento](https://github.com/Lling0000/antigravity-workspace-template/issues/new)
 
 ### Enviar Código
 ¿Listo para codificar? Consulta la [Hoja de Ruta](ROADMAP.md) Fase 9 para áreas abiertas.
@@ -145,9 +147,9 @@ Bienvenemos contribuciones en todos los niveles:
 ## 📞 Soporte
 
 - 📖 **Documentación**: ¡Estás leyéndola! (o consulta [README.md](../../README.md))
-- 🐛 **Reportes de Bugs**: [GitHub Issues](https://github.com/study8677/antigravity-workspace-template/issues)
-- 💡 **Solicitudes de Características**: [GitHub Discussions](https://github.com/study8677/antigravity-workspace-template/discussions)
-- 👥 **Comunidad**: [Dale una estrella al repo](https://github.com/study8677/antigravity-workspace-template) para mantenerte actualizado
+- 🐛 **Reportes de Bugs**: [GitHub Issues](https://github.com/Lling0000/antigravity-workspace-template/issues)
+- 💡 **Solicitudes de Características**: [GitHub Discussions](https://github.com/Lling0000/antigravity-workspace-template/discussions)
+- 👥 **Comunidad**: [Dale una estrella al fork](https://github.com/Lling0000/antigravity-workspace-template) para mantenerte actualizado
 
 ## 👥 Contribuidores
 

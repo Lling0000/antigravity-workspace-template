@@ -1,13 +1,28 @@
 # 🪐 Google Antigravity Workspace Template
 
-**Production-grade starter kit for autonomous AI agents on Google Antigravity.**
+**Convention-first AI-agent workspace that solves the blank-project problem for Google Antigravity / Cursor-style development.**
 
 Language: [English](/docs/en/) | [中文（仓库主页）](README_CN.md) | [中文文档](/docs/zh/) | [Español](/docs/es/)
 
 ![License](https://img.shields.io/badge/License-MIT-green)
+![Fork](https://img.shields.io/badge/Fork-Lling0000%20edition-orange)
 ![Gemini](https://img.shields.io/badge/AI-Gemini_2.0_Flash-blue)
 ![Architecture](https://img.shields.io/badge/Architecture-Event_Driven-purple)
 ![Memory](https://img.shields.io/badge/Context-Infinite-orange)
+
+**Core value:** instead of starting from an empty folder and repeatedly explaining architecture to the IDE, clone a workspace where agent memory, tool discovery, skills, MCP integration, sandbox execution, and swarm orchestration already have documented defaults.
+
+> **Lling0000 fork / edition note**
+> This repository is a fork of [study8677/antigravity-workspace-template](https://github.com/study8677/antigravity-workspace-template). The Lling0000 edition keeps the template discoverable for agent-workspace study and reuse; it does not claim original authorship or upstream star history. See [FORK.md](FORK.md) for attribution details.
+
+## Lling0000 Edition Positioning
+
+This fork is a practical reference for people who want to inspect a convention-first AI-agent workspace before adapting it.
+
+- **Why fork** — to preserve a reusable Google Antigravity / Cursor style workspace template under Lling0000 with clear attribution.
+- **What to inspect first** — `.antigravity/rules.md`, `.cursorrules`, `src/agent.py`, `src/tools/`, `src/skills/`, `mcp_servers.json`, and `docs/en/QUICK_START.md`.
+- **Who it is for** — builders who want a ready workspace for agent memory, tool discovery, MCP integration, sandbox execution, and multi-agent routing.
+- **Fork boundary** — original authorship remains upstream; clone links and star history below refer to the Lling0000 fork.
 
 ## 🌟 Project Intent
 
@@ -46,7 +61,7 @@ So I built this project: **Antigravity Workspace Template**.
 **Linux / macOS:**
 ```bash
 # 1. Clone the template
-git clone https://github.com/study8677/antigravity-workspace-template.git my-project
+git clone https://github.com/Lling0000/antigravity-workspace-template.git my-project
 cd my-project
 
 # 2. Run the installer
@@ -64,7 +79,7 @@ python src/agent.py
 **Windows:**
 ```cmd
 # 1. Clone the template
-git clone https://github.com/study8677/antigravity-workspace-template.git my-project
+git clone https://github.com/Lling0000/antigravity-workspace-template.git my-project
 cd my-project
 
 # 2. Run the installer
@@ -80,7 +95,7 @@ python src/agent.py
 
 ```bash
 # 1. Clone the template
-git clone https://github.com/study8677/antigravity-workspace-template.git my-project
+git clone https://github.com/Lling0000/antigravity-workspace-template.git my-project
 cd my-project
 
 # 2. Create virtual environment
@@ -275,7 +290,7 @@ See [Roadmap](docs/en/ROADMAP.md) for details.
 
 ## 🤝 Contributing
 
-Ideas are contributions too! Open an [issue](https://github.com/study8677/antigravity-workspace-template/issues) to:
+Ideas are contributions too! Open an [issue](https://github.com/Lling0000/antigravity-workspace-template/issues) to:
 - Report bugs
 - Suggest features
 - Propose architecture (Phase 9)
@@ -284,12 +299,14 @@ Or submit a PR to improve docs or code.
 
 ## 👥 Contributors
 
+Upstream authors and contributors are credited here. Lling0000-specific fork and attribution notes are tracked in [FORK.md](FORK.md).
+
 - [@devalexanderdaza](https://github.com/devalexanderdaza) — First contributor. Implemented demo tools, enhanced agent functionality, proposed the "Agent OS" roadmap, and completed MCP integration.
 - [@Subham-KRLX](https://github.com/Subham-KRLX) — Added dynamic tools and context loading (Fixes #4) and the multi-agent cluster protocol (Fixes #6).
 
-## ⭐ Star History
+## ⭐ Fork Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=study8677/antigravity-workspace-template&type=Date)](https://star-history.com/#study8677/antigravity-workspace-template&Date)
+[![Fork Star History Chart](https://api.star-history.com/svg?repos=Lling0000/antigravity-workspace-template&type=Date)](https://star-history.com/#Lling0000/antigravity-workspace-template&Date)
 
 ## 📄 License
 

@@ -1,13 +1,28 @@
 # 🪐 Plantilla de Workspace de Google Antigravity
 
-**Kit inicial de nivel producción para agentes de IA autónomos en Google Antigravity.**
+**Workspace de agentes, basado en convenciones, que resuelve el problema del proyecto vacío para flujos tipo Google Antigravity / Cursor.**
 
 Idioma: [English](/docs/en/) | [中文](README_CN.md) | [Español](/docs/es/)
 
 ![License](https://img.shields.io/badge/License-MIT-green)
+![Fork](https://img.shields.io/badge/Fork-Lling0000%20edition-orange)
 ![Gemini](https://img.shields.io/badge/AI-Gemini_2.0_Flash-blue)
 ![Architecture](https://img.shields.io/badge/Architecture-Event_Driven-purple)
 ![Memory](https://img.shields.io/badge/Context-Infinite-orange)
+
+**Valor central:** en lugar de empezar desde una carpeta vacía y explicar la arquitectura al IDE una y otra vez, clona un workspace donde memoria del agente, descubrimiento de herramientas, skills, MCP, sandbox y orquestación multiagente ya tienen defaults documentados.
+
+> **Lling0000 fork / edition note**
+> This repository is a fork of [study8677/antigravity-workspace-template](https://github.com/study8677/antigravity-workspace-template). The Lling0000 edition keeps the template discoverable for agent-workspace study and reuse; it does not claim original authorship or upstream star history. See [FORK.md](FORK.md).
+
+## Lling0000 Edition Positioning
+
+This fork is a practical reference for people who want to inspect a convention-first AI-agent workspace before adapting it.
+
+- **Why fork** — to preserve a reusable Google Antigravity / Cursor style workspace template under Lling0000 with clear attribution.
+- **What to inspect first** — `.antigravity/rules.md`, `.cursorrules`, `src/agent.py`, `src/tools/`, `src/skills/`, `mcp_servers.json`, and `docs/en/QUICK_START.md`.
+- **Who it is for** — builders who want a ready workspace for agent memory, tool discovery, MCP integration, sandbox execution, and multi-agent routing.
+- **Fork boundary** — original authorship remains upstream; clone links and star history below refer to the Lling0000 fork.
 
 ## 🌟 Intención del Proyecto
 
@@ -46,7 +61,7 @@ Así que construí este proyecto: **Antigravity Workspace Template**.
 **Linux / macOS:**
 ```bash
 # 1. Clona la plantilla
-git clone https://github.com/study8677/antigravity-workspace-template.git mi-proyecto
+git clone https://github.com/Lling0000/antigravity-workspace-template.git mi-proyecto
 cd mi-proyecto
 
 # 2. Ejecuta el instalador
@@ -64,7 +79,7 @@ python src/agent.py
 **Windows:**
 ```cmd
 # 1. Clona la plantilla
-git clone https://github.com/study8677/antigravity-workspace-template.git mi-proyecto
+git clone https://github.com/Lling0000/antigravity-workspace-template.git mi-proyecto
 cd mi-proyecto
 
 # 2. Ejecuta el instalador
@@ -80,7 +95,7 @@ python src/agent.py
 
 ```bash
 # 1. Clona la plantilla
-git clone https://github.com/study8677/antigravity-workspace-template.git mi-proyecto
+git clone https://github.com/Lling0000/antigravity-workspace-template.git mi-proyecto
 cd mi-proyecto
 
 # 2. Crea un entorno virtual
@@ -246,7 +261,7 @@ Consulta la [Hoja de Ruta](docs/en/ROADMAP.md) para más detalles.
 
 ## 🤝 Contribuyendo
 
-¡Las ideas también cuentan como contribuciones! Abre un [issue](https://github.com/study8677/antigravity-workspace-template/issues) para:
+¡Las ideas también cuentan como contribuciones! Abre un [issue](https://github.com/Lling0000/antigravity-workspace-template/issues) para:
 - Reportar bugs
 - Sugerir funcionalidades
 - Proponer arquitectura (Fase 9)
@@ -255,12 +270,14 @@ O envía un PR para mejorar documentación o código.
 
 ## 👥 Contribuidores
 
+Upstream authors and contributors are credited here. Lling0000-specific fork and attribution notes are tracked in [FORK.md](FORK.md).
+
 - [@devalexanderdaza](https://github.com/devalexanderdaza) — Primer contribuidor. Implementó herramientas de demostración, mejoró la funcionalidad del agente, propuso la hoja de ruta "Agent OS" y completó la integración MCP.
 - [@Subham-KRLX](https://github.com/Subham-KRLX) — Añadió carga dinámica de herramientas y contexto (Fixes #4) y el protocolo de clúster multiagente (Fixes #6).
 
-## ⭐ Star History
+## ⭐ Fork Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=study8677/antigravity-workspace-template&type=Date)](https://star-history.com/#study8677/antigravity-workspace-template&Date)
+[![Fork Star History Chart](https://api.star-history.com/svg?repos=Lling0000/antigravity-workspace-template&type=Date)](https://star-history.com/#Lling0000/antigravity-workspace-template&Date)
 
 ## 📄 Licencia
 

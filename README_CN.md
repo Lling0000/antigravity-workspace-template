@@ -1,13 +1,28 @@
 # 🪐 Google Antigravity Workspace Template
 
-**用于在 Google Antigravity 上构建自主 AI 代理的生产级入门套件。**
+**解决 AI IDE 空项目太弱的问题：面向 Google Antigravity / Cursor 风格开发的约定优先 agent workspace。**
 
 语言: [English](/docs/en/) | [中文（仓库主页）](README_CN.md) | [中文文档](/docs/zh/) | [Español](/docs/es/)
 
 ![License](https://img.shields.io/badge/License-MIT-green)
+![Fork](https://img.shields.io/badge/Fork-Lling0000%20edition-orange)
 ![Gemini](https://img.shields.io/badge/AI-Gemini_2.0_Flash-blue)
 ![Architecture](https://img.shields.io/badge/Architecture-Event_Driven-purple)
 ![Memory](https://img.shields.io/badge/Context-Infinite-orange)
+
+**核心卖点：** 不再每次从空文件夹开始、反复向 IDE 解释架构；这个模板预置了 agent 记忆、工具发现、skills、MCP 集成、沙箱执行和多 agent 编排的默认约定。
+
+> **Lling0000 fork / edition 说明**
+> 本仓库是 [study8677/antigravity-workspace-template](https://github.com/study8677/antigravity-workspace-template) 的 fork。Lling0000 edition 用于让这个 agent workspace 模板在 Lling0000 账号下更容易被发现、学习和复用；不声称原创作者身份，也不继承上游 star 历史。归因详情见 [FORK.md](FORK.md)。
+
+## Lling0000 Edition 定位
+
+这个 fork 是一个可直接检查的 AI-agent 工作区模板参考，适合先理解约定，再按自己的项目改造。
+
+- **为什么 fork**：在 Lling0000 账号下保留一个 Google Antigravity / Cursor 风格工作区模板，并明确归因。
+- **优先看什么**：`.antigravity/rules.md`、`.cursorrules`、`src/agent.py`、`src/tools/`、`src/skills/`、`mcp_servers.json`、`docs/en/QUICK_START.md`。
+- **适合谁**：需要 agent 记忆、工具发现、MCP 集成、沙箱执行和多 agent 路由模板的开发者。
+- **fork 边界**：原创作者归属上游；下方 clone 链接和 star history 指向 Lling0000 fork。
 
 ## 🌟 项目初衷
 
@@ -46,7 +61,7 @@
 **Linux / macOS：**
 ```bash
 # 1. 克隆模板
-git clone https://github.com/study8677/antigravity-workspace-template.git my-project
+git clone https://github.com/Lling0000/antigravity-workspace-template.git my-project
 cd my-project
 
 # 2. 运行安装脚本
@@ -64,7 +79,7 @@ python src/agent.py
 **Windows：**
 ```cmd
 # 1. 克隆模板
-git clone https://github.com/study8677/antigravity-workspace-template.git my-project
+git clone https://github.com/Lling0000/antigravity-workspace-template.git my-project
 cd my-project
 
 # 2. 运行安装脚本
@@ -80,7 +95,7 @@ python src/agent.py
 
 ```bash
 # 1. 克隆模板
-git clone https://github.com/study8677/antigravity-workspace-template.git my-project
+git clone https://github.com/Lling0000/antigravity-workspace-template.git my-project
 cd my-project
 
 # 2. 创建虚拟环境
@@ -246,7 +261,7 @@ Swarm 会自动：
 
 ## 🤝 贡献
 
-创意也是贡献！欢迎在 [issue](https://github.com/study8677/antigravity-workspace-template/issues) 中：
+创意也是贡献！欢迎在 [issue](https://github.com/Lling0000/antigravity-workspace-template/issues) 中：
 - 报告 bug
 - 提出功能建议
 - 提交架构方案（阶段 9）
@@ -255,12 +270,14 @@ Swarm 会自动：
 
 ## 👥 贡献者
 
+这里保留上游作者和贡献者归因。Lling0000-specific fork 与归因说明记录在 [FORK.md](FORK.md)。
+
 - [@devalexanderdaza](https://github.com/devalexanderdaza) — 首位贡献者。实现了演示工具、增强了 Agent 功能、提出了 “Agent OS” 路线图，并完成 MCP 集成。
 - [@Subham-KRLX](https://github.com/Subham-KRLX) — 添加了动态工具与上下文加载（修复 #4），以及多 Agent 集群协议（修复 #6）。
 
-## ⭐ Star History
+## ⭐ Fork Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=study8677/antigravity-workspace-template&type=Date)](https://star-history.com/#study8677/antigravity-workspace-template&Date)
+[![Fork Star History Chart](https://api.star-history.com/svg?repos=Lling0000/antigravity-workspace-template&type=Date)](https://star-history.com/#Lling0000/antigravity-workspace-template&Date)
 
 ## 📄 许可证
 
